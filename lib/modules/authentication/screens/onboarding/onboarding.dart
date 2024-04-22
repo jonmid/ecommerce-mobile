@@ -23,7 +23,7 @@ class OnBoardingScreen extends StatelessWidget {
           PageView(
             controller: controller.pageController,
             onPageChanged: controller.updatePageIndicator,
-            children: const [
+            children: [
               OnBoardingPage(
                 image: AppImage.onBoardingImage1,
                 title: AppText.onBoardingTitle1,

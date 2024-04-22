@@ -1,3 +1,4 @@
+import 'package:app_mobile/generated/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -15,6 +16,10 @@ class App extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       home: const OnBoardingScreen(),
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
+      // locale: const Locale('es', ''), // TODO: put here status management
+      locale: const Locale('en', ''),
     );
   }
 }

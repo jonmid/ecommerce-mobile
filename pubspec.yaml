@@ -17,6 +17,7 @@ dependencies:
   logger: ^2.1.0
   url_launcher: ^6.2.4
   smooth_page_indicator: ^1.1.0
+  flutter_localization: ^0.2.0
 
   # Icons
   iconsax: ^0.0.8
@@ -34,11 +35,11 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 flutter:
+  generate: true
   uses-material-design: true
 
   # ---------- LOCAL ASSETS ----------
   assets:
-    - assets/icons/
     - assets/images/on_boarding_images/
 
   # ---------- LOCAL FONTS ----------
