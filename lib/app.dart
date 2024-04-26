@@ -1,4 +1,5 @@
 import 'package:app_mobile/generated/app_localizations.dart';
+import 'package:app_mobile/modules/common/controllers/general_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -10,6 +11,8 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final GeneralController generalController = Get.put(GeneralController());
+
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
@@ -19,7 +22,8 @@ class App extends StatelessWidget {
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       // locale: const Locale('es', ''), // TODO: put here status management
-      locale: const Locale('en', ''),
+      // locale: const Locale('en', ''),
+      locale: Locale(generalController.language.value, ''),
     );
   }
 }
