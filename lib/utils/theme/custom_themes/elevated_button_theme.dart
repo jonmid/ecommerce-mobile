@@ -1,3 +1,4 @@
+import 'package:app_mobile/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class CustomElevatedButtonTheme {
@@ -7,15 +8,15 @@ class CustomElevatedButtonTheme {
       ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      foregroundColor: Colors.white,
-      backgroundColor: Colors.blue,
-      disabledForegroundColor: Colors.grey,
-      disabledBackgroundColor: Colors.grey,
-      side: const BorderSide(color: Colors.blue),
+      foregroundColor: AppColors.white,
+      backgroundColor: AppColors.primary,
+      disabledForegroundColor: AppColors.grey,
+      disabledBackgroundColor: AppColors.grey,
+      side: const BorderSide(color: AppColors.primary),
       padding: const EdgeInsets.symmetric(vertical: 18),
       textStyle: const TextStyle(
         fontSize: 16,
-        color: Colors.white,
+        color: AppColors.white,
         fontWeight: FontWeight.w600,
       ),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -26,15 +27,15 @@ class CustomElevatedButtonTheme {
       ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      foregroundColor: Colors.white,
-      backgroundColor: Colors.blue,
-      disabledForegroundColor: Colors.grey,
-      disabledBackgroundColor: Colors.grey,
-      side: const BorderSide(color: Colors.blue),
+      foregroundColor: AppColors.white,
+      backgroundColor: AppColors.primary,
+      disabledForegroundColor: AppColors.grey,
+      disabledBackgroundColor: AppColors.grey,
+      side: const BorderSide(color: AppColors.primary),
       padding: const EdgeInsets.symmetric(vertical: 18),
       textStyle: const TextStyle(
         fontSize: 16,
-        color: Colors.white,
+        color: AppColors.white,
         fontWeight: FontWeight.w600,
       ),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),

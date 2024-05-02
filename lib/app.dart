@@ -18,8 +18,8 @@ class App extends StatelessWidget {
       home: const OnBoardingScreen(),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      // locale: const Locale('es', ''), // TODO: put here status management
-      locale: const Locale('en', ''),
+      locale: const Locale('es', ''), // TODO: put here status management
+      // locale: const Locale('en', ''),
     );
   }
 }

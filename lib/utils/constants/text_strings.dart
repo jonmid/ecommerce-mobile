@@ -20,4 +20,23 @@ class AppText {
       AppLocalizations.of(Get.context!).onboarding('onBoardingSubTitle2');
   static String onBoardingSubTitle3 =
       AppLocalizations.of(Get.context!).onboarding('onBoardingSubTitle3');
+
+  // -- Authentication Headings
+  static String loginTitle =
+      AppLocalizations.of(Get.context!).login('loginTitle');
+  static String loginSubTitle =
+      AppLocalizations.of(Get.context!).login('loginSubTitle');
+
+  // -- Authentication Forms
+  static String email = AppLocalizations.of(Get.context!).login('email');
+  static String password = AppLocalizations.of(Get.context!).login('password');
+  static String rememberMe =
+      AppLocalizations.of(Get.context!).login('rememberMe');
+  static String forgetPassword =
+      AppLocalizations.of(Get.context!).login('forgetPassword');
+  static String signIn = AppLocalizations.of(Get.context!).login('signIn');
+  static String createAccount =
+      AppLocalizations.of(Get.context!).login('createAccount');
+  static String orSignInWith =
+      AppLocalizations.of(Get.context!).login('orSignInWith');
 }
