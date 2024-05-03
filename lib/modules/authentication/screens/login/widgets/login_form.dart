@@ -41,7 +41,7 @@ class LoginForm extends StatelessWidget {
                 /// Remember me
                 Row(
                   children: [
-                    Checkbox(value: true, onChanged: (value) {}),
+                    Checkbox(value: false, onChanged: (value) {}),
                     Text(AppText.rememberMe),
                   ],
                 ),

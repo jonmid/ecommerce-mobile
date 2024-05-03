@@ -65,4 +65,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'ecommerce-ucc-2024.appspot.com',
     iosBundleId: 'com.example.appMobile',
   );
+
 }
