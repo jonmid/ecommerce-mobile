@@ -1,5 +1,4 @@
 import 'package:app_mobile/modules/authentication/screens/login/login.dart';
-import 'package:app_mobile/modules/products/screens/list_product.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -19,7 +18,7 @@ class OnBoardingController extends GetxController {
 
   void nextPage() {
     if (currentPageIndex.value == 2) {
-      Get.to(const ListProduct());
+      Get.to(const LoginScreen());
     } else {
       int page = currentPageIndex.value + 1;
       pageController.jumpToPage(page);
